@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "87252",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "402163",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "520250",
+      "name": "正品",
+      "font_class": "zhengpin",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "636853",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "1023511",
+      "name": "箱子",
+      "font_class": "xiangzi-copy",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "2179178",
+      "name": "疑问",
+      "font_class": "yiwen",
+      "unicode": "e7a2",
+      "unicode_decimal": 59298
+    },
+    {
+      "icon_id": "2672194",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "2746064",
+      "name": "连接",
+      "font_class": "link",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "3275551",
+      "name": "联保",
+      "font_class": "lianbao",
+      "unicode": "e791",
+      "unicode_decimal": 59281
+    },
+    {
+      "icon_id": "4077089",
+      "name": "心 爱心",
+      "font_class": "xinaixin",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "4233242",
+      "name": "右键",
+      "font_class": "youjian",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "4449192",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "4716084",
+      "name": "耳机",
+      "font_class": "erji1",
+      "unicode": "e544",
+      "unicode_decimal": 58692
+    },
+    {
+      "icon_id": "4807005",
+      "name": "上键头",
+      "font_class": "shangjiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "8515789",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10164590",
+      "name": "购物车",
+      "font_class": "gouwuche1-copy",
+      "unicode": "e509",
+      "unicode_decimal": 58633
+    },
+    {
+      "icon_id": "10311610",
+      "name": "消 息",
+      "font_class": "xiaoxi1",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "10481731",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "11894908",
+      "name": "购物车-23",
+      "font_class": "qicheqianlian-",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    }
+  ]
+}

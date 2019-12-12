@@ -1,0 +1,127 @@
+"data":{
+    "actSkuInfoVos":[
+        {
+            "spuId":10001072,
+            "skuId":101407,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/72/10001072_1575040420949_750x750.png",
+            "skuName":"vivo Z5x 6GB+128GB 极光色",
+            "actPrice":799,
+            "marketPrice":1598,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190709/752f8c1ebafaea273f312dd673847c5e.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"5000mAh大电池，骁龙710处理器，6.53英寸极点全面屏"
+        },
+        {
+            "spuId":10712,
+            "skuId":5684,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/84/5684_1541856498030hd_bi_750x750.png",
+            "skuName":"X21s 全面屏 6GB+128GB 星夜黑",
+            "actPrice":1799,
+            "marketPrice":2598,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190628/4dab95ace01ded61831fa87025dd2579.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"6.41英寸水滴屏，双涡轮加速引擎，高通660AIE处理器，AI智慧双摄，屏幕指纹解锁，vivo游戏魔盒"
+        },
+        {
+            "spuId":10000805,
+            "skuId":101000,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/56/5156_1534841763291hd_bi_750x750.png",
+            "skuName":"vivo 22.5W（10V/2.25A）闪充充电器",
+            "actPrice":49.5,
+            "marketPrice":99,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190709/752f8c1ebafaea273f312dd673847c5e.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"闪充功能需搭配配套数据线使用，方可实现。（注：X27、iQOO、NEX需使用Type-C接口数据线，本商品不含数据线，数据线请另行购买）"
+        },
+        {
+            "spuId":10001351,
+            "skuId":101722,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/54/10000654_1554199724212_750x750.png",
+            "skuName":"vivo X27（8G+128G版）闪充数据线-2A",
+            "actPrice":19.5,
+            "marketPrice":39,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190709/752f8c1ebafaea273f312dd673847c5e.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"2A大电流速充，Type-C接口，官方原装正品。（注：X27 8G+256G版/X27精英版/X27Pro不支持此数据线，本商品不含充电器，充电器需另行购买）"
+        },
+        {
+            "spuId":10000371,
+            "skuId":100461,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/71/10000371_1548322579401_750x750.png",
+            "skuName":"IMOVING 果冻行李箱 24寸",
+            "actPrice":299,
+            "marketPrice":399,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190701/cf8f9f07dc1b4224b661b21e358e69b0.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"时尚果冻亮面设计，德国拜耳PC材质，减震静音万向轮，全铝合金拉杆，高度可调节，配备TSA海关密码锁，防止被暴力开箱"
+        },
+        {
+            "spuId":10001285,
+            "skuId":101658,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/85/10001285_1563177911093_750x750.png",
+            "skuName":"vivo Y7s 6GB+128GB 海风青",
+            "actPrice":1598,
+            "marketPrice":1798,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190628/4dab95ace01ded61831fa87025dd2579.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"光电屏幕指纹，超广角AI三摄，前置1600万高清像素，闪充4500mAh大电池"
+        },
+        {
+            "spuId":10000584,
+            "skuId":100753,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/82/1882_1534852360612hd_bi_750x750.png",
+            "skuName":"vivo XE600i 原装耳机",
+            "actPrice":49.5,
+            "marketPrice":99,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190709/752f8c1ebafaea273f312dd673847c5e.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"vivo原装耳机，适配全部vivo机型；三频均衡，让音乐更震撼；入耳式设计，有效阻隔噪音，尽享音乐时光；轻量化设计，佩戴舒适！"
+        },
+        {
+            "spuId":10000057,
+            "skuId":100181,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/57/10000057_1544793642902_750x750.png",
+            "skuName":"Y93 标准版 3GB+64GB 紫霞红",
+            "actPrice":899,
+            "marketPrice":1200,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190628/4dab95ace01ded61831fa87025dd2579.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"19：9灵动水滴屏，4030mAH大电池，八核处理器，Face Wake人脸识别，AI智慧双摄"
+        },
+        {
+            "spuId":10001443,
+            "skuId":101870,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/96/10000996_1557836470390_750x750.png",
+            "skuName":"iQOO 软边透明手机保护壳",
+            "actPrice":19.5,
+            "marketPrice":39,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190709/752f8c1ebafaea273f312dd673847c5e.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"真机手感，拒绝指纹；材质升级，手感柔滑；独立按键，还原清脆按感；柔软边框，全面防护，有效防摔；简约大方，颜值出众。"
+        },
+        {
+            "spuId":10001753,
+            "skuId":102497,
+            "skuImg":"https://shopstatic.vivo.com.cn/vivoshop/commodity/53/10001753_1574071298787_750x750.png",
+            "skuName":"多功能工具包 8件装",
+            "actPrice":118.2,
+            "marketPrice":139,
+            "cornerImg":"https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190523/af66e7f1b94841b9ad1afde83e679a50.png_w530-h530.png",
+            "redirectUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+            "promotion":"多件组合，居家必备"
+        }
+    ],
+    "timeVo":{
+        "currentTime":"1575978601064",
+        "startTime":"1575979200000",
+        "endTime":"1575993000000",
+        "nexStartTime":"12月11日 10:00"
+    },
+    "tapUrlVo":{
+        "currentTapUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=401",
+        "nextTapUrl":"https://topic.vivo.com.cn/activity/link/PCms?secChannel=2&tabId=403"
+    }
+},
+"code":0,
+"msg":"成功"
+}
