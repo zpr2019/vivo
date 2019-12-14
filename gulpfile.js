@@ -1,4 +1,7 @@
 const gulp = require("gulp");
+const sass = require("gulp-sass");
+const rename = require("gulp-rename");
+const minifyCSS = require("gulp-minify-css");
 
 //.html
 gulp.task("copy-html", function(){
@@ -14,11 +17,19 @@ gulp.task("scripts", function(){
     .pipe(connect.reload());
 })
 
-const sass = require("gulp-sass");
+
 //处理scss
 gulp.task("sass", function(){
-    gulp.src("stylesheet/*.scss")
+    return gulp.src("stylesheet/index.scss")
     .pipe(sass())
+    .pipe(gulp.dest("dist/css"))
+    .pipe(minifyCSS())
+    .pipe(rename("index.min.css"))
+    .pipe(gulp.dest("dist/css"))
+    .pipe(connect.reload());
+})
+gulp.task("copy-css", function(){
+    return gulp.src("iconfont/iconfont.css")
     .pipe(gulp.dest("dist/css"))
     .pipe(connect.reload());
 })
@@ -33,14 +44,14 @@ gulp.task("data", function(){
 //图片
 
 gulp.task("images", function(){
-    return gulp.src("*.{jpg,png}")
+    return gulp.src("images/**/*.{jpg,png}")
     .pipe(gulp.dest("dist/images"))
     .pipe(connect.reload());
 })
 
 //一次性执行多个任务
 
-gulp.task("build", ['copy-html', 'scripts', 'sass', 'data', 'images'], function(){
+gulp.task("build", ['copy-html', 'scripts', "copy-css",'sass', 'data', 'images'], function(){
     console.log("项目建立成功");
 })
 
