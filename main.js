@@ -10,8 +10,8 @@ require.config({
         "total": "total",//合计
         "magnifyingGlass":"magnifyingGlass",//放大镜
 		"tabControl":"tabControl",//选项卡
-		"data":"data"
-		/* "banner":"banner" */
+		"data":"data",
+	
 	
 		
 
@@ -25,10 +25,12 @@ require.config({
 		}
 	}
 })
-require(["data","banner"], function(data,banner){
+require(["data","banner","magnifyingGlass"], function(data,banner,magnifyingGlass){
 	data.download();
 	data.tabMenu(); //让轮播图效果生效
+	data.tabMenu2();
 	banner.banner();
+	magnifyingGlass.magnifyingGlass();
 
 
 })

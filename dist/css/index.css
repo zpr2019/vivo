@@ -29,9 +29,13 @@ img {
   overflow: hidden;
   visibility: hidden; }
 
+body {
+  background: #f7f7f5; }
+
 .site-topbar {
   height: 20px;
   width: 100%;
+  margin: 0 auto;
   background: #333333;
   display: flex;
   justify-content: space-between; }
@@ -77,8 +81,7 @@ img {
     /*nav-top动态加载数据 */ }
     .site-navTop .site-navTop-center .site-navTop-center-box {
       display: flex;
-      justify-content: space-between;
-      position: absolute; }
+      justify-content: space-between; }
       .site-navTop .site-navTop-center .site-navTop-center-box .site-navTop-center-first {
         width: 90px;
         height: 100%;
@@ -89,8 +92,8 @@ img {
         /* flex: 1; */ }
         .site-navTop .site-navTop-center .site-navTop-center-box .site-navTop-center-first .first-box {
           position: relative;
-          left: -140px;
-          width: 1000px;
+          left: -200px;
+          width: 1200px;
           height: 300px;
           background: white;
           z-index: 99;
@@ -116,13 +119,14 @@ img {
     padding-right: 50px; }
 
 .nav-banner-Bigbox {
-  position: absolute;
-  margin: 0 auto; }
+  /*  position: relative; */
+  margin: 0 auto;
+  width: 100%; }
   .nav-banner-Bigbox .play {
-    width: 1000px;
+    width: 1010px;
     height: 522px;
     position: relative;
-    margin: 10px auto 0;
+    margin: auto 0;
     overflow: hidden; }
   .nav-banner-Bigbox #play li {
     list-style: none; }
@@ -152,12 +156,12 @@ img {
     position: relative;
     bottom: 2px; }
   .nav-banner-Bigbox #play ul {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 1; }
   .nav-banner-Bigbox #play ul li {
-    width: 2000px;
+    width: 2100px;
     height: 522px;
     float: left; }
   .nav-banner-Bigbox #play ul img {
@@ -165,12 +169,12 @@ img {
     width: 100%;
     height: 100%;
     position: relative;
-    left: -450px; }
+    left: -550px; }
   .nav-banner-Bigbox .site-navLeft-box {
-    position: relative;
-    top: -510px;
+    position: absolute;
+    top: 90px;
     left: 50px;
-    z-index: 6; }
+    z-index: 88; }
     .nav-banner-Bigbox .site-navLeft-box .site-navLeft {
       width: 200px;
       height: 500px;
@@ -180,22 +184,21 @@ img {
         flex-direction: column; }
         .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first {
           width: 100%;
-          height: 28px;
-          line-height: 28px;
-          background: red;
-          /* position: absolute; */ }
+          height: 70px;
+          line-height: 28px; }
           .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .site-navLeft-left-first-span {
             float: left;
             padding-left: 20px; }
-          .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .iconfont {
+          .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first i {
             float: right;
             padding-right: 15px; }
           .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .last-box {
             position: relative;
             left: 200px;
             width: 600px;
-            height: 300px;
-            background: green;
+            height: 400px;
+            background: white;
+            display: none;
             /* .site-navTop .site-navTop-center .site-navTop-center-box .first-box  */ }
             .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .last-box .last-box-ul {
               /* display: flex;
@@ -207,10 +210,23 @@ img {
                 margin-top: 20px;
                 margin-right: 20px;
                 width: 150px;
-                height: 50px;
-                background: chocolate; }
+                height: 170px; }
                 .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .last-box .last-box-ul .last-box-ul-li .last-box-ul-img {
                   width: 100%;
                   height: 100%; }
                 .nav-banner-Bigbox .site-navLeft-box .site-navLeft .site-navLeft-left .site-navLeft-left-first .last-box .last-box-ul .last-box-ul-li .last-box-ul-span {
                   font-size: 15px; }
+
+.common .common-box {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .common .common-box .common-box-li {
+    width: 210px;
+    height: 140px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .common .common-box .common-box-li .common-box-li-img {
+      width: 100%;
+      height: 100%; }

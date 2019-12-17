@@ -1,6 +1,6 @@
 
 html,body,ol,ul,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,p,form,input,select,textarea,table,td,tr,th,fieldset{
-	margin:0;
+	margin:0 ;
     padding:0;
     font-size: 10px;
 }
@@ -29,11 +29,17 @@ img{
 	overflow:hidden;
 	visibility: hidden;
 }
+body{
+    background: #f7f7f5;
+   
+}
+
 
 
     .site-topbar {
         height:20px;
         width:100%;
+        margin:0 auto;
         background:#333333;
         display: flex;
         justify-content: space-between;
@@ -106,7 +112,7 @@ img{
           .site-navTop-center-box{
               display: flex;
               justify-content: space-between;
-              position: absolute;
+              
               .site-navTop-center-first{
                 width:90px;
                 height:100%;
@@ -117,8 +123,8 @@ img{
                 /* flex: 1; */
                .first-box{
                    position: relative;
-                   left:-140px;
-                   width:1000px;
+                  left:-200px;
+                   width:1200px;
                    height: 300px;
                    background: white;
                    z-index: 99;
@@ -157,9 +163,10 @@ img{
     
     }
     .nav-banner-Bigbox{
-        position: absolute;
+       /*  position: relative; */
         margin: 0 auto;
-        .play { width: 1000px; height: 522px; position: relative; margin: 10px auto 0;  overflow: hidden;}
+        width:100%;
+        .play { width: 1010px; height: 522px; position: relative; margin:  auto 0;  overflow: hidden;}
         #play{
             li { list-style: none; }
             img { border: none; }
@@ -167,15 +174,15 @@ img{
             ol li { float: left; margin-right: 3px; display: inline; cursor: pointer; background: #fcf2cf; border: 1px solid #f47500; padding: 2px 6px; color: #d94b01; font-family: arial; font-size: 12px; }
             .active { padding: 3px 8px; font-weight: bold; color: #ffffff; background: #ffb442; position: relative; bottom: 2px; }
         
-            ul { position: absolute; top: 0; left: 0; z-index: 1; }
-            ul li { width: 2000px; height: 522px; float: left; }
-            ul img { float: left; width: 100%; height: 100%; position: relative; left:-450px }
+            ul { position: relative; top: 0; left: 0; z-index: 1; }
+            ul li { width: 2100px; height: 522px; float: left; }
+            ul img { float: left; width: 100%; height: 100%; position: relative; left:-550px; }
         }
     .site-navLeft-box{
-        position: relative;
-        top:-510px;
+        position: absolute;
+        top:90px;
             left:50px;
-            z-index: 6;
+            z-index: 88;
         .site-navLeft{
             width:200px;
             height: 500px;
@@ -186,24 +193,25 @@ img{
                 flex-direction: column;
                 .site-navLeft-left-first{
                     width:100%;
-                    height:28px;
+                    height:70px;
                     line-height: 28px;
-                    background: red;
-                    /* position: absolute; */
+                
                     .site-navLeft-left-first-span{
                         float: left;
                         padding-left: 20px;
                     }
-                    .iconfont{
+                    i{
                         float: right;
                         padding-right: 15px;
                     }
                     .last-box{
                         position: relative;
+                       
                         left:200px;
                         width:600px;
-                        height: 300px;
-                        background:green;
+                        height: 400px;
+                        background:white;
+                        display: none;
 /* .site-navTop .site-navTop-center .site-navTop-center-box .first-box  */
                         .last-box-ul{
                             /* display: flex;
@@ -215,8 +223,9 @@ img{
                                 margin-top:20px;
                                 margin-right:20px;
                                 width: 150px;
-                                height: 50px;
-                                 background: chocolate;
+                                height: 170px;
+                                
+                               
                                 
                                
                                 .last-box-ul-img{
@@ -236,5 +245,26 @@ img{
 
         }
     }
+}
+
+.common{
+   .common-box{
+    height:140px;
+    width:100%;
+   
+   
+   display: flex;
+   justify-content: space-between;
+   .common-box-li{
+    width: 210px;
+    height: 140px;
+   padding-left:15px ;
+   padding-right:15px ;
+    .common-box-li-img{
+        width: 100%;
+        height:100%;
+    }
+   }
+   }
 }
 

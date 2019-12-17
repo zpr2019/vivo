@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const sass = require("gulp-sass");
+
 const rename = require("gulp-rename");
 const minifyCSS = require("gulp-minify-css");
 
@@ -28,6 +29,33 @@ gulp.task("sass", function(){
     .pipe(gulp.dest("dist/css"))
     .pipe(connect.reload());
 })
+gulp.task("sassLogin", function(){
+    return gulp.src("stylesheet/login.scss")
+    .pipe(sass())
+    .pipe(gulp.dest("dist/css"))
+    .pipe(minifyCSS())
+    .pipe(rename("login.min.css"))
+    .pipe(gulp.dest("dist/css"))
+    .pipe(connect.reload());
+})
+gulp.task("sassList", function(){
+    return gulp.src("stylesheet/list.scss")
+    .pipe(sass())
+    .pipe(gulp.dest("dist/css"))
+    .pipe(minifyCSS())
+    .pipe(rename("list.min.css"))
+    .pipe(gulp.dest("dist/css"))
+    .pipe(connect.reload());
+})
+gulp.task("sassShopCart", function(){
+    return gulp.src("stylesheet/shoppingCart.scss")
+    .pipe(sass())
+    .pipe(gulp.dest("dist/css"))
+    .pipe(minifyCSS())
+    .pipe(rename("shoppingCart.min.css"))
+    .pipe(gulp.dest("dist/css"))
+    .pipe(connect.reload());
+})
 gulp.task("copy-css", function(){
     return gulp.src("iconfont/iconfont.css")
     .pipe(gulp.dest("dist/css"))
@@ -51,7 +79,7 @@ gulp.task("images", function(){
 
 //一次性执行多个任务
 
-gulp.task("build", ['copy-html', 'scripts', "copy-css",'sass', 'data', 'images'], function(){
+gulp.task("build", ['copy-html', 'scripts', "copy-css",'sass',"sassLogin","sassList", "sassShopCart",'data', 'images'], function(){
     console.log("项目建立成功");
 })
 
@@ -60,9 +88,12 @@ gulp.task("build", ['copy-html', 'scripts', "copy-css",'sass', 'data', 'images']
 //监听
 gulp.task("watch", function(){
     gulp.watch("*.html", ['copy-html']);
-    gulp.watch(["*.js", "!gulpfile.js"], ['scripts'])
-    gulp.watch("stylesheet/*.scss", ['sass'])
-    gulp.watch(["*.json", "!package.json"], ['data'])
+    gulp.watch(["*.js", "!gulpfile.js"], ['scripts']);
+    gulp.watch("stylesheet/*.scss", ['sass']);
+    gulp.watch("stylesheet/*.scss", ["sassLogin"]);
+    gulp.watch("stylesheet/*.scss", ["sassList"]);
+    gulp.watch("stylesheet/*.scss", ["sassShopCart"]);
+    gulp.watch(["*.json", "!package.json"], ['data']);
     gulp.watch("*.{jpg,png}", ['images']);
 })
 
